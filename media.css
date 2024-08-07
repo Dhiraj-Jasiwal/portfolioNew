@@ -1,0 +1,8 @@
+@media(max-width:576px){
+    .left-sidebar{
+        position: relative !important;
+    }
+    .custom-container{
+        margin: 0 !important;
+    }
+}

@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+      <!-- wow -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+      <!-- font -->
+      <link rel="stylesheet" href="font/stylesheet.css">
+    <!-- media -->
+    <link rel="stylesheet" href="media.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="bg-dark">
+  
+
+    <nav class="navbar navbar-expand-lg bg-dark  mb-4 position-sticky z-3">
+        <div class="container-fluid ">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-secondary p-2"></span>
+            </button>
+            <div class="collapse navbar-collapse headd" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto justify-content-evenly mb-2 w-75 ">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li> -->
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-house"></i></a>
+                    </li>
+<!-- 
+                    <li class="nav-item ms-3"><a href="#intro" class="nav-link rounded-pill  border-bottom-0"><i class="fa-regular fa-house"></i></a></li> -->
+                    <li class="nav-item "><a href="#about" class="nav-link border-top-0 border-bottom-0"><i
+                                class="fa-solid fa-user"></i></a></li>
+                    <li class="nav-item "><a href="#resume" class="nav-link border-top-0"><i
+                                class="fa-regular fa-newspaper"></i></a></li>
+                    <li class="nav-item "><a href="#service" class="nav-link border-top-0"><i
+                                class="fa-solid fa-bars-progress"></i></a></li>
+                    <li class="nav-item "><a href="#skill" class="nav-link border-top-0"><i
+                                class="fa-regular fa-object-ungroup"></i></a></li>
+                    <li class="nav-item "><a href="#portfolio" class="nav-link border-top-0"><i
+                                class="fa-solid fa-braille"></i></a>
+                    </li>
+                    <li class="nav-item"><a href="#contact" class="nav-link rounded-pill"><i
+                                class="fa-regular fa-note-sticky"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="left-sidebar position-fixed top-0 m-5 mt-2">
+        <div class="card bg-dark text-white border border-white p-2" style="background-color:#333232fb ; ">
+            <img src="image/Dhiraj photo.jpeg" alt="" srcset="" class="card-img-top ">
+            <div class="card-header">
+                <div class="d-flex justify-content-around">
+                   
+                    <h2>Dhiraj</h2>
+                    <span style="font-size: 17px;">Frontend <br>Developer </span>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="text-center">
+                    <h5 class="mt-0">dhiraj.01jaiswal@gmail.com</h5>
+                    <h6>Based in India,GJ</h5>
+                    <!-- <span class="fs-6">© 2022 Drake. All Rights Reserved</span> -->
+                </div>
+
+                <div class="btnlogo d-flex justify-content-around" >
+                    <button class="bt1"><i class="fa-brands fa-whatsapp" style="font-size: 20px;"></i></button>
+                    <button class="bt1"><i class="fa-brands fa-linkedin-in" style="font-size: 20px;"></i></button>
+                    <button class="bt1"><i class="fa-brands fa-github" style="font-size: 20px;"></i></button>
+                </div>
+
+                <div class="text-center">
+                    <!-- <button class="bg-success p-2 w-50 bt2"> jlbkjb</button> -->
+                    <button class="btn mt-1 d-flex mx-auto mb-0">Hire me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="left-sidebarr position-fixed top-0 end-0">
+         <div class="card">
+            <img src="image/drake.jpg" alt="" srcset="" class="card-img-top">
+            <div class="card-header">
+                <h2>Heading</h2>
+            </div>
+            <div class="card-body">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa alias illum eligendi quas quidem
+                    reprehenderit consequuntur delectus ullam cumque! Modi iusto nobis similique quasi debitis. Optio
+                    amet eos temporibus molestiae?
+
+                </p>
+            </div>
+        </div> -->
+
+
+    </div> 
+
+   <div class="preloader" id="preloader">
+        <div class="loader"></div>
+    </div>
+    <img src="http://bendtech.com/wp-content/uploads/Logo.png" alt="" width="30%"> 
+
+
+    <div class="custom-container">
+        <div class="container-xl">
+            <div class="hero-content mx-auto">
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis obcaecati libero id facere velit
+                    voluptate quam ut unde! Ducimus culpa, corporis et similique ipsum odit veritatis maxime, quisquam
+                    nisi, non ex aliquam quae? Cupiditate reiciendis nostrum ipsam quos consequuntur, temporibus
+                    voluptas consequatur odit dicta? Vel doloremque excepturi quasi libero maxime ad quidem in quisquam
+                    deserunt quibusdam voluptas laudantium id voluptatum corrupti praesentium, aliquid dolore sequi sed
+                    maiores. Nulla similique cupiditate ab consequatur dolores ad laborum saepe, blanditiis explicabo,
+                    aspernatur quisquam vero odit praesentium cum tempora enim soluta. Non facere repudiandae minima,
+                    corporis dolor eius officia, libero accusantium deserunt, numquam blanditiis.</p> -->
+
+                <div class="text-white ms-4">
+                    <button class="btn1 rounded-pill p-2 wow animate__animated animate__fadeInTopLeft mt-2"
+                        id="intro"><i class="fa-solid fa-house me-2 ms-2"></i>Introduce</button>
+                    <div class="mt-4 wow animate__animated animate__fadeInUp">
+                        <h1>Hi,it's <span class="name green"> Dhiraj</span> </h1>
+                    </div>
+                    <div class="slider-text-container wow animate__animated animate__fadeInUp">
+                        <div class="static-text">I'm a</div>
+                        <ul class="dynamic-text">
+                            <li><span>frontend developer</span></li>
+                            <li><span>backend developer</span></li>
+                            <li><span>programmer</span></li>
+                        </ul>
+                    </div>
+                    <p style="font-size: 16px; margin-top: 50px; color: rgb(202, 191, 191);"
+                        class="wow animate__animated animate__fadeInUpBig">I design and code beautifully
+                        simple things and i love what i do.<br> Just simple like that!</p>
+
+                    <div class="about">
+                        <div>
+                            <button class="btn1 rounded-pill p-2 wow animate__animated animate__fadeInTopLeft my-4"
+                                id="about"><i class="fa-solid fa-user me-2 ms-2"></i>About</button>
+
+                            <div class="mt-4">
+                                <h1 class="">Every
+                                    great
+                                    design begin with
+                                    an <br>even <span class="name fw-5"> better story</span>
+                                </h1>
+
+                                <p class=" mt-4 wow animate__animated animate__bounceInRight fw-6 text-secondary">
+                                    Since beginning my journey as a freelance designer nearly 8 years ago, I've done
+                                    remote work for agencies,
+                                    consulted for
+                                    startups, and collaborated with talented people to create digital products for
+                                    both
+                                    business
+                                    and consumer use. I'm quietly confident, naturally curious, and perpetually
+                                    working on
+                                    improving my chopsone design problem at a time.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume">
+                        <div>
+                            <button class="btn1 rounded-pill p-2 wow animate__animated animate__fadeInTopLeft"
+                                id="resume"><i class="fa-regular fa-newspaper me-2 ms-2"></i>Resume</button>
+
+                            <div class="mt-4">
+
+                                <h1 style="font-weight: 500;" class="mb-5 wow animate__animated animate__fadeInUp">
+                                    Education
+                                    & <span class="name" style="font-size: 40px;"> Experience</span> </h1>
+
+
+                                <ul class="border-3 border-start position-relative wow animate__animated animate__fadeInTopRight"
+                                    style="padding-bottom: 40px;">
+                                    <span class="position-absolute translate-middle" style="left: -2px; top: -5px;">
+                                        <i class="fa-regular fa-circle"></i></span>
+                                    <li class="mb-4 ms-4 text-secondary" style="margin-top: 0px;">2020-Present</li>
+                                    <li class="ms-4" style="font-size: 24px;"> Framer Desinger & Developer</li>
+                                    <span class="text-secondary; ms-4 text-secondary" style="font-size:17px;">Brunodee
+                                        Agency</span>
+                                    <li class="ms-4" style="font-size: 24px;"> Frontend WordPress Developer</li>
+                                    <span class="text-secondary; ms-4 text-secondary mb-4 pb-4"
+                                        style="font-size:17px;">Brunodee
+                                        Agency</span>
+                                </ul>
+
+                                <ul
+                                    class="border-3 border-start position-relative wow animate__animated animate__fadeInTopRight">
+                                    <span class="position-absolute translate-middle" style="left: -2px; top: -5px;">
+                                        <i class="fa-regular fa-circle"></i></span>
+                                    <li class="mb-4 ms-4 text-secondary">2013 - 2019</li>
+                                    <li class="ms-4" style="font-size: 24px;"> Webflow Developer & Co-Founder</li>
+                                    <span class="text-secondary; ms-4 text-secondary" style="font-size:17px;">Designflow
+                                        Studio</span>
+                                    <li class="ms-4" style="font-size: 24px;"> Web Designer</li>
+                                    <span class="text-secondary; ms-4 text-secondary"
+                                        style="font-size:17px;">Freelance</span>
+                                    <li class="ms-4" style="font-size: 24px;"> Leader Team of Marketing</li>
+                                    <span class="text-secondary; ms-4 text-secondary" style="font-size:17px;">AHA
+                                        Marketing
+                                        Agency</span>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="service">
+
+                        <div style="margin-top: 160px;">
+
+                            <button class="btn1 rounded-pill p-2 wow animate__animated animate__fadeInTopLeft"
+                                id="service"><i class="fa-solid fa-bars-progress me-2 ms-2"></i>Services</button>
+
+
+                            <h1 style="font-weight: 500;" class="mb-5 mt-4 wow animate__animated animate__fadeInUp">
+                                My<span class="name" style="font-size: 40px;">
+                                    Specializations</span> </h1>
+
+
+
+                            <div class="border border-success p-4 mb-3 serv1 wow animate__animated animate__bounceInRight">
+                                
+                                <h3>Website Design <span style="color: #0ce86b;"><i
+                                            class="fa-solid fa-bezier-curve float-end"></i></span>
+                                </h3>                                
+                                <span class="text-secondary fs-5">I created digital products with unique
+                                    ideas use Figma & Framer</span><br>
+                                <a href="" class="mt-4 nav-link fs-5">24 Projects</a>
+                            </div>
+
+                            <div class="border border-success p-4 mb-3 serv1 wow animate__animated animate__bounceInLeft">
+                                <h3>Website Design <span style="color: #0ce86b;"><i class="fa-solid fa-code float-end"></i></span>
+                                </h3>
+                                <span class="text-secondary fs-5">I created digital products with unique
+                                    ideas use Figma & Framer</span>
+                                <a href="" class="mt-4 nav-link fs-5">24 Projects</a>
+                            </div>
+
+                            <div class="border border-success p-4 serv1 wow animate__animated animate__bounceInRight">
+                                <h3>Website Design <span style=" color: #0ce86b;"><i
+                                            class="fa-solid fa-rocket float-end"></i></span>
+                                </h3>
+                                <span class="text-secondary fs-5">I created digital products with unique
+                                    ideas use Figma & Framer</span>
+                                <a href="" class="mt-4 nav-link fs-5">24 Projects</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <section class="skills ">
+                            <div>
+                                <button class="btn1 rounded-pill p-2 mt-4 wow animate__animated animate__fadeInTopLeft" id="skill"><i
+                                        class="fa-regular fa-object-ungroup me-2 ms-2"></i>Skills</button>
+                                <h1 style="font-weight: 500;" class="mb-5 mt-4">My<span class="name"
+                                        style="font-size: 40px;">
+                                        Advantages</span> </h1>
+                                <div class="row">
+
+
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="rounded-pill border border-success p-4 m-3 position-relative adv wow animate__animated animate__backInLeft"
+                                                style="display: inline-block;">
+                                                <img src="image/html1.png" alt="" srcset="" width="100px" height="70px"
+                                                    style="margin-bottom: 20px;">
+                                                <p class="ms-4 mt-2" style="font-size: 27px;">98%</p>
+                                            </div>
+                                            <p style="margin-left: 60px;"> HTML</p>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6">            
+                                            <div class="rounded-pill border border-success p-4 m-3 adv wow animate__animated animate__backInDown"
+                                            style="display: inline-block; height: 200px;width: 140px;">
+                                            <img src="image/css-logo.png" alt="" srcset="" width="50px" height="70px"
+                                                style="margin-bottom: 20px; margin-left: 18px;">
+                                            <p class="ms-3 mt-2" style="font-size: 27px;">96%</p>
+                                        </div>
+                                        <p style="margin-left: 70px;"> CSS</p>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6">            
+                                            <div class="rounded-pill border border-success p-4 m-3 adv wow animate__animated animate__backInRight"
+                                            style="display: inline-block;height: 200px;width: 140px;">
+                        <img src=" image/kisspng-jquery-computer-icons-javascript-html-share-icon-5c45f7b1b4a4f7.2677465315480892657399.png"
+                                            alt="" srcset="" width="70px" height="70px"
+                                            style="margin-bottom: 20px;margin-left: 7px;">
+                                            <p class="ms-3 mt-2" style="font-size: 27px;">95%</p>
+                                        </div>
+                                           <p style="margin-left: 50px;"> JQUERY</p>
+                                        </div>
+
+
+                                        <div class="col-lg-4 col-md-6">            
+                                            <div class="rounded-pill border border-success p-4 m-3 adv wow animate__animated animate__backInLeft"
+                                            style="display: inline-block; height: 200px;width: 140px;">
+                                            <img src="image/kindpng_4850258.png" alt="" srcset="" width="70px" height="70px"
+                                                style="margin-bottom: 20px; margin-left: 10px;">
+                                            <p class="ms-3 mt-2" style="font-size: 27px;">96%</p>
+                                        </div>
+                                        <p style="margin-left: 50px;"> BOOTSTRAP</p>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6">            
+                                            <div class="rounded-pill border border-success p-4 m-3 adv wow animate__animated animate__backInUp"
+                                            style="display: inline-block; height: 200px;width: 140px;">
+                                            <img src="image/transparent-js-icon-logo-icon-react-icon-5dbea1da3071a5.5168401015727743621985.png" alt="" srcset="" width="95px" height="70px"
+                                                style="margin-bottom: 20px;">
+                                            <p class="ms-3 mt-2" style="font-size: 27px;">96%</p>
+                                        </div>
+                                        <p style="margin-left: 70px;"> REACT</p>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6">            
+                                            <div class="rounded-pill border border-success p-4 m-3 adv wow animate__animated animate__backInRight"
+                                            style="display: inline-block; height: 200px;width: 140px;">
+                                            <img src="image/kisspng-javascript-logo-html-clip-art-javascript-logo-5b5188b1a2a1f9.2428698915320700656662.png" alt="" srcset="" width="95px" height="70px"
+                                                style="margin-bottom: 20px;">
+                                            <p class="ms-3 mt-2" style="font-size: 27px;">95%</p>
+                                        </div>
+                                        <p style="margin-left: 50px;"> JAVASCRIPT</p>
+                                    </div>            
+            
+                                    </div>
+        
+
+                                </div>
+                            </div>
+                    </div>
+
+
+
+                    <!-- <img src="image/portfolioimg1.jpg" alt="" srcset="" style="border-radius: 20px;" class="w-100"> -->
+
+                    <section class="portfolio">
+                        <div>
+                            <button class="btn1 rounded-pill p-2 wow animate__animated animate__fadeInTopLeft" id="portfolio"><i
+                                    class="fa-solid fa-braille me-2"></i>Portfolio</button>
+                            <h1 class="mb-5 mt-4">Featured<span class="name">
+                                    Projects</span> </h1>
+                            <div class="position-relative wow animate__animated animate__zoomIn">
+                                <a href=""> <img src="image/pr1.PNG" alt="" srcset=""
+                                        style="border-radius: 20px;" class="w-100"></a>
+
+
+                                <div>
+                                    <h2 class="mt-2" style="font-size: 25px;">Bureau - Architecture Studio Website
+                                    </h2>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="position-relative mt-5 wow animate__animated animate__zoomIn">
+                                    <a href=""> <img src="image/pr2.PNG" alt="" srcset=""
+                                            style="border-radius: 20px;height: 230px;" class="w-100"></a>
+
+                                    <button class="rounded-pill position-absolute start-0 mt-2"
+                                        style="width: 90px;margin-left: 10px; margin: top 20px;">WordPress</button>
+
+                                    <button class="rounded-pill position-absolute start-0 mt-2 "
+                                        style="width: 100px;margin-left: 110px; margin: top 20px;">Laravel</button>
+
+                                    <div>
+                                        <h2 class="mt-2" style="font-size: 25px;">Moonex WordPress Theme</h2>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-lg-6">
+                                <div class="position-relative mt-5 ms-4 wow animate__animated animate__zoomIn">
+                                    <a href=""> <img src="image/pr3.PNG" alt="" srcset=""
+                                            style="border-radius: 20px;" class="w-100"></a>
+                                    <button class="rounded-pill position-absolute start-0 mt-2"
+                                        style="width: 90px;margin-left: 10px; margin: top 20px;">WordPress</button>
+                                    <button class="rounded-pill position-absolute start-0 mt-2 "
+                                        style="width: 100px;margin-left: 110px; margin: top 20px;">Laravel</button>
+                                    <div>
+                                        <h2 class="mt-2" style="font-size: 25px;">Moonex WordPress Theme</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="position-relative mt-5 wow animate__animated animate__zoomIn">
+                            <a href=""> <img src="image/pr4.PNG" alt="" srcset="" style="border-radius: 20px;"
+                                    class="w-100"></a>
+
+                            <button class="rounded-pill position-absolute start-0 mt-2"
+                                style="width: 70px;margin-left: 10px; margin: top 20px;">Figma</button>
+
+                            <button class="rounded-pill position-absolute start-0 mt-2 "
+                                style="width: 90px;margin-left: 90px; margin: top 20px;">React</button>
+                            <button class="rounded-pill position-absolute start-0 mt-2 "
+                                style="width: 90px;margin-left: 190px; margin: top 20px;">Wordpress</button>
+
+                            <div>
+                                <h2 class="mt-2" style="font-size: 25px;">Hinterland - Real Estate Site Redesign
+                                </h2>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+
+
+
+                    <section class="testimonial bg-dark">
+                        <div style="margin-top: 100px;">
+
+                            <button class="btn1 rounded-pill p-2 wow animate__animated animate__fadeInTopLeft"><i
+                                    class="fa-solid fa-house me-2 ms-2"></i>Testimonial</button>
+                            <h1 style="font-weight: 500;" class="mb-5 mt-4">Trusted by<span class="name">
+                                    Hundered Clients</span> </h1>
+
+                        </div>
+
+                        <!-- 
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> -->
+
+
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="border border-success p-4 mb-2 w-75 mx-auto">
+                                        <div class="d-flex mb-4">
+                                            <img src="image/testimonial-1.jpg" alt="" srcset="" width="40px"
+                                                class="rounded-circle img">
+                                            <div class="ms-3 text-white">
+                                                <span>pablou Dybala <br>CEO of IBM</span>
+                                            </div>
+                                        </div>
+                                        <span class="text-secondary fs-6"> “Drake was a real
+                                            pleasure to
+                                            work with and we look
+                                            forward to working with him again. He's definitely the kind of
+                                            designer that you can trust with any project from A-Z.”</span><br>
+                                        <a href="" class="mt-4 nav-link fs-5">Projects</a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="border border-success p-4 mb-2 w-75 mx-auto">
+                                        <div class="d-flex mb-4">
+                                            <img src="image/testimonial-2.jpg" alt="" srcset="" width="40px"
+                                                class="rounded-circle">
+                                            <div class="ms-3 text-white">
+                                                <span>pablou Dybala <br>CEO of IBM</span>
+                                            </div>
+                                        </div>
+                                        <span class="text-secondary fs-6"> “Extremely profressional
+                                            and
+                                            fast service!. Drake is a master
+                                            of code and he also very creativity, professional . We done 3 projects with
+                                            him and certain will continue.” </span><br>
+                                        <a href="" class="mt-4 nav-link fs-5">Projects</a>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="border border-success p-4 mb-2 w-75 mx-auto">
+                                        <div class="d-flex mb-4">
+                                            <img src="image/testimonial-3.jpg" alt="" srcset="" width="40px"
+                                                class="rounded-circle">
+                                            <div class="ms-3 text-white">
+                                                <span>pablou Dybala <br>CEO of IBM</span>
+                                            </div>
+                                        </div>
+                                        <span class="text-secondary fs-5"> “Drake - A Developer with
+                                            the
+                                            creativity, professional and master of code. Much more than what i'm expect.
+                                            High quality product &amp; flexiable price. Recommended!.” </span><br>
+                                        <a href="" class="mt-4 nav-link fs-6">Projects</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
+                        <div class="mt-5">
+                            <p>WORK WITH 60+ BRANDS WORLDWIDE</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class=" ms-3 mb-4 mt-3 wow animate__animated animate__fadeInTopLeft">
+                                    <img src="image/client-1.png" alt="" srcset="" style="color: gray;">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+
+                                <div class=" ms-3 mb-4 mt-3 wow animate__animated animate__fadeInTopLeft">
+                                    <img src="image/client-2.png" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+
+                                <div class=" ms-3 mb-4 mt-3 wow animate__animated animate__fadeInTopLeft">
+                                    <img src="image/client-3.png" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+
+                                <div class=" ms-3 mb-4 mt-3 wow animate__animated animate__fadeInTopRight">
+                                    <img src="image/client-4.png" alt="" srcset="">
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+
+                                <div class=" ms-3 mt-3 mb-4 wow animate__animated animate__fadeInBottomLeft">
+                                    <img src="image/client-5.png" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+
+                                <div class=" ms-3 mt-3 mb-4 wow animate__animated animate__fadeInBottomLeft">
+                                    <img src="image/client-6.png" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+
+                                <div class=" ms-3 mt-3 mb-4 wow animate__animated animate__fadeInBottomRight">
+                                    <img src="image/client-7.png" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+
+                                <div class=" ms-3 mt-3 mb-4 wow animate__animated animate__fadeInBottomRight">
+                                    <img src="image/client-8.png" alt="" srcset="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+
+
+                    <!-- <section class="login">
+                        <div class="box d-flex">
+                            <div class="img w-6">
+                                <div>
+                                    <div class="w-6 ">
+                                        <img src="image/testimonial-2.jpg">
+                                    </div>
+                
+                                </div>
+                            </div>
+                            <div class="text w-6">
+                                <form action="index.html" class="container alignitem">
+                                    <div class="login alignitem ml-50 mr-50">
+                                        <div>
+                                            <h1>Welcome To PreSkool</h1>
+                                            <span>need a account?</span>
+                                            <span>Sign up</span>
+                                        </div>
+                                        <h1>Sign IN</h1>
+                                        <div>
+                                            <fieldset>
+                                                <legend>Username *</legend>
+                                                <input type="text"><img src="asset/images/profile-user.png" width="40px">
+                                            </fieldset>
+                
+                                            <fieldset>
+                                                <legend>Password *</legend>
+                                                <input type="password"><img src="asset/images/show.png">
+                                            </fieldset>
+                                        </div>
+                                        <div class="check d-flex justify-content">
+                                            <div>
+                                            <input type="checkbox">Remember ME
+                                            </div>
+                                            <div>
+                                                <a href="">Forger Password ?</a>
+                                            </div>
+                                        </div>
+                                        <div class="btns">
+                                        <button type="submit">Login</button>
+                                            </div>
+                
+                                            <h2>OR</h2>
+                
+                                            <div class="btnlogo d-flex justify-content">
+                                                <button1><img src="asset/images/google-plus.png"></button1>
+                                               <button1><img src="asset/images/facebook.png"></button1>
+                                              <button1><img src="asset/images/twitter (1).png"></button1>
+                                               <button1><img src="asset/images/linkedin (1).png"></button1>
+                                            </div>                            
+                                    </div>
+                                    </form>
+                            </div>
+                        </div>
+                        </div>
+                    </section> -->
+
+
+                    <section class="contact">
+
+                        <div style="margin-top: 100px;">
+
+                            <button class="btn1 rounded-pill p-2 wow animate__animated animate__fadeInTopLeft" id="contact"><i
+                                    class="fa-regular fa-note-sticky me-2 ms-2"></i>Contact</button>
+                            <h1 class="mb-4 mt-5">Let's Work<span class="name">
+                                    Together!</span> </h1>
+                            <h3 class="mb-3">dhiraj.01jaiswal@gmail.com</h3>
+                        </div>
+
+                        <form class="text-white">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                      <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                                        <input type="text" class="form-control bg-dark text-white" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" required>
+                                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Email *</label>
+                                        <input type="email" class="form-control bg-dark text-white" id="exampleInputPassword1" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Phone(optional)</label>
+                                        <input type="number" class="form-control bg-dark text-white" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" required>
+                                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Your Budget (optional)</label>
+                                        <input type="number" class="form-control bg-dark text-white" id="exampleInputPassword1" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Message</label>
+                                        <textarea rows="4" cols="7" type="address" class="form-control bg-dark text-white" id="exampleInputPassword1" ></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input bg-dark" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">INTERESTED</label>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btnn btn-primary mx-auto">Submit</button>
+                            </div>
+                        </form>
+
+                        <!-- <div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <fieldset>
+                                        <legend>Username *</legend>
+                                        <input type="text" class="p-4"><img src="image/profile-user.png" width="40px">
+                                        <legend>Password *</legend>
+                                        <input type="password"><img src="image/show.png">
+                                    </fieldset>
+                               </div>
+                               <div class="col-lg-6">
+
+                                    <fieldset>
+                                        <legend>Password *</legend>
+                                        <input type="password"><img src="image/show.png">
+                                    </fieldset>
+                                </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                        <!--                 
+                        <div class="form position-absolute" style="margin-bottom: 40px;">
+                            <div class="contact-info position-relative" style="margin-bottom: 20px;">
+                                <h3 class="title">Let's get in touch</h3>
+                                <div class="info">
+                                    <div class="information">
+                                        <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
+                                        <p>92 Cherry Drive Uniondale, NY 11553</p>
+                                    </div>
+                                    <div class="information">
+                                        <i class="fas fa-envelope"></i> &nbsp &nbsp
+                                        <p>lorem@ipsum.com</p>
+                                    </div>
+                                    <div class="information">
+                                        <i class="fas fa-phone"></i>&nbsp&nbsp
+                                        <p>123-456-789</p>
+                                    </div>
+                                </div>
+                
+                                <div class="social-media">
+                                    <p>Connect with us :</p>
+                                    <div class="social-icons">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="contact-form">
+                                <span class="circle one"></span>
+                                <span class="circle two"></span>
+                
+                                <form action="index.html" autocomplete="off">
+                                    <h3 class="title">Contact us</h3>
+                                    <div class="input-container">
+                                        <input type="text" name="name" class="input" />
+                                        <label for="">Username</label>
+                                        <span>Username</span>
+                                    </div>
+                                    <div class="input-container">
+                                        <input type="email" name="email" class="input" />
+                                        <label for="">Email</label>
+                                        <span>Email</span>
+                                    </div>
+                                    <div class="input-container">
+                                        <input type="tel" name="phone" class="input" />
+                                        <label for="">Phone</label>
+                                        <span>Phone</span>
+                                    </div>
+                                    <div class="input-container textarea">
+                                        <textarea name="message" class="input"></textarea>
+                                        <label for="">Message</label>
+                                        <span>Message</span>
+                                    </div>
+                                    <input type="submit" value="Send" class="btn" />
+                                </form>
+                            </div>
+                        </div> 
+                    </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+    </div>
+
+
+
+
+    jquerry
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    Javascript
+    <script src="Js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+<script>
+
+
+    // JavaScript to fade out preloader when content is loaded
+    //   document.addEventListener("DOMContentLoaded", function() {
+    // Hide preloader with fade out effect after content is fully loaded
+    window.onload = function () {
+        var preloader = document.querySelector('.preloader');
+        preloader.style.opacity = '0';
+        setTimeout(function () {
+            preloader.style.display = 'none';
+        }, 1000); // 500 milliseconds delay to match with the transition duration
+    };
+
+</script>
+
+</body>
+
+</html>
